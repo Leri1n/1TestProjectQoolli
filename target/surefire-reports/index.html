@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
-              <span class="suite-name border-passed">Surefire suite</span>
+              <span class="suite-name border-failed">Surefire suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">11 methods, 2 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CheckoutTests" class="method navigator-link" hash-for-method="checkoutTest">checkoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.InventoryTests" class="method navigator-link" hash-for-method="inventoryUnavailableAfterLogoutTest">inventoryUnavailableAfterLogoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +122,47 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.InventoryTests" class="method navigator-link" hash-for-method="cartBadgeAfterOpeningCartTest">cartBadgeAfterOpeningCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.CheckoutTests" class="method navigator-link" hash-for-method="continueFromCartTest">continueFromCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="emptyLoginTest">emptyLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="emptyPasswordTest">emptyPasswordTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="invalidLoginTest">invalidLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.InventoryTests" class="method navigator-link" hash-for-method="inventoryTitleTest">inventoryTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.InventoryTests" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Surefire_suite" title="myTest" class="method navigator-link" hash-for-method="testMethod">testMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="tests.LoginTests" class="method navigator-link" hash-for-method="validLoginTest">validLoginTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -118,6 +177,103 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.InventoryTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="inventoryUnavailableAfterLogoutTest">
+                  </a> <!-- inventoryUnavailableAfterLogoutTest -->
+                  <span class="method-name">inventoryUnavailableAfterLogoutTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at tests.InventoryTests.inventoryUnavailableAfterLogoutTest(InventoryTests.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Проверка, что после Logout нельзя попасть на Inventory)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.CheckoutTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkoutTest">
+                  </a> <!-- checkoutTest -->
+                  <span class="method-name">checkoutTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.id: first-name, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#first\-name&quot;}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.114, chrome: {chromedriverVersion: 150.0.7871.115 (25f5b661e5b..., userDataDir: C:\Users\Leri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55352}, goog:processID: 5496, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55352/devtoo..., se:cdpVersion: 150.0.7871.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fb6f84d39c4f341588ee40e979bf860
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at pages.CheckoutPage.fillInformation(CheckoutPage.java:37)
+	at tests.CheckoutTests.checkoutTest(CheckoutTests.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Успешное оформление заказа)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyLoginTest">
+                  </a> <!-- emptyLoginTest -->
+                  <span class="method-name">emptyLoginTest</span>
+                  <em>
+(Login с пустыми полями)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyPasswordTest">
+                  </a> <!-- emptyPasswordTest -->
+                  <span class="method-name">emptyPasswordTest</span>
+                  <em>
+(Login без пароля)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginTest">
+                  </a> <!-- invalidLoginTest -->
+                  <span class="method-name">invalidLoginTest</span>
+                  <em>
+(Неверный логин)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest">
+                  </a> <!-- validLoginTest -->
+                  <span class="method-name">validLoginTest</span>
+                  <em>
+(Успешный вход в систему)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -133,6 +289,58 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.InventoryTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cartBadgeAfterOpeningCartTest">
+                  </a> <!-- cartBadgeAfterOpeningCartTest -->
+                  <span class="method-name">cartBadgeAfterOpeningCartTest</span>
+                  <em>
+(Проверка счетчика корзины после открытия корзины)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inventoryTitleTest">
+                  </a> <!-- inventoryTitleTest -->
+                  <span class="method-name">inventoryTitleTest</span>
+                  <em>
+(Проверка заголовка страницы Products)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                  <em>
+(Проверка выхода из системы)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.CheckoutTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="continueFromCartTest">
+                  </a> <!-- continueFromCartTest -->
+                  <span class="method-name">continueFromCartTest</span>
+                  <em>
+(Continue shopping после корзины)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
         </div> <!-- panel Surefire_suite -->
         <div panel-name="test-xml-Surefire_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -144,7 +352,12 @@
 &lt;suite name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;base.BaseTest&quot;/&gt;
       &lt;class name=&quot;myTest&quot;/&gt;
+      &lt;class name=&quot;tests.CartTests&quot;/&gt;
+      &lt;class name=&quot;tests.CheckoutTests&quot;/&gt;
+      &lt;class name=&quot;tests.InventoryTests&quot;/&gt;
+      &lt;class name=&quot;tests.LoginTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -158,7 +371,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (1 class)</span>
+                <span class="test-name">Surefire test (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -184,16 +397,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testMethod')
-data.setCell(0, 2, 'myTest')
-data.setCell(0, 3, 7481);
+data.setCell(0, 1, 'checkoutTest')
+data.setCell(0, 2, 'tests.CheckoutTests')
+data.setCell(0, 3, 11635);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testMethod')
+data.setCell(1, 2, 'myTest')
+data.setCell(1, 3, 9975);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'inventoryUnavailableAfterLogoutTest')
+data.setCell(2, 2, 'tests.InventoryTests')
+data.setCell(2, 3, 1874);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'logoutTest')
+data.setCell(3, 2, 'tests.InventoryTests')
+data.setCell(3, 3, 1577);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'cartBadgeAfterOpeningCartTest')
+data.setCell(4, 2, 'tests.InventoryTests')
+data.setCell(4, 3, 1297);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'continueFromCartTest')
+data.setCell(5, 2, 'tests.CheckoutTests')
+data.setCell(5, 3, 1184);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'inventoryTitleTest')
+data.setCell(6, 2, 'tests.InventoryTests')
+data.setCell(6, 3, 731);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'emptyPasswordTest')
+data.setCell(7, 2, 'tests.LoginTests')
+data.setCell(7, 3, 694);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'emptyLoginTest')
+data.setCell(8, 2, 'tests.LoginTests')
+data.setCell(8, 3, 592);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validLoginTest')
+data.setCell(9, 2, 'tests.LoginTests')
+data.setCell(9, 3, 505);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'invalidLoginTest')
+data.setCell(10, 2, 'tests.LoginTests')
+data.setCell(10, 3, 470);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -224,6 +477,139 @@ return data;
                 <span class="method-name">testMethod</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckoutTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">checkoutTest</span>
+                <span class="method-start">13977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25643 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">27772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">continueFromCartTest</span>
+                <span class="method-start">30935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32122 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.InventoryTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">32513 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cartBadgeAfterOpeningCartTest</span>
+                <span class="method-start">36768 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">38069 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">39660 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inventoryTitleTest</span>
+                <span class="method-start">42450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43185 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">45151 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">inventoryUnavailableAfterLogoutTest</span>
+                <span class="method-start">47787 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49668 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">50112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">53701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55281 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">55864 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyLoginTest</span>
+                <span class="method-start">59403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59998 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">61843 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">emptyPasswordTest</span>
+                <span class="method-start">64480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">65177 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">65645 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLoginTest</span>
+                <span class="method-start">70729 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">71502 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validLoginTest</span>
+                <span class="method-start">75084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">75593 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

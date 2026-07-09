@@ -9,10 +9,35 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7 767</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">75 975</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">myTest</td><td><a href="#m0">testMethod</a></td><td rowspan="1">1783524007729</td><td rowspan="1">7481</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.CheckoutTests</td><td><a href="#m0">checkoutTest</a></td><td rowspan="1">1783620779595</td><td rowspan="1">11635</td></tr><tr class="failedodd"><td rowspan="1">tests.InventoryTests</td><td><a href="#m1">inventoryUnavailableAfterLogoutTest</a></td><td rowspan="1">1783620813405</td><td rowspan="1">1874</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">myTest</td><td><a href="#m2">testMethod</a></td><td rowspan="1">1783620765618</td><td rowspan="1">9975</td></tr><tr class="passedodd"><td rowspan="1">tests.CheckoutTests</td><td><a href="#m3">continueFromCartTest</a></td><td rowspan="1">1783620796553</td><td rowspan="1">1184</td></tr><tr class="passedeven"><td rowspan="3">tests.InventoryTests</td><td><a href="#m4">cartBadgeAfterOpeningCartTest</a></td><td rowspan="1">1783620802386</td><td rowspan="1">1297</td></tr><tr class="passedeven"><td><a href="#m5">inventoryTitleTest</a></td><td rowspan="1">1783620808068</td><td rowspan="1">731</td></tr><tr class="passedeven"><td><a href="#m6">logoutTest</a></td><td rowspan="1">1783620819319</td><td rowspan="1">1577</td></tr><tr class="passedodd"><td rowspan="4">tests.LoginTests</td><td><a href="#m7">emptyLoginTest</a></td><td rowspan="1">1783620825021</td><td rowspan="1">592</td></tr><tr class="passedodd"><td><a href="#m8">emptyPasswordTest</a></td><td rowspan="1">1783620830098</td><td rowspan="1">694</td></tr><tr class="passedodd"><td><a href="#m9">invalidLoginTest</a></td><td rowspan="1">1783620836347</td><td rowspan="1">470</td></tr><tr class="passedodd"><td><a href="#m10">validLoginTest</a></td><td rowspan="1">1783620840702</td><td rowspan="1">505</td></tr></tbody>
 </table>
-<h2>Surefire test</h2><h3 id="m0">myTest#testMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Surefire test</h2><h3 id="m0">tests.CheckoutTests#checkoutTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element found by By.id: first-name, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#first\-name&quot;}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.114, chrome: {chromedriverVersion: 150.0.7871.115 (25f5b661e5b..., userDataDir: C:\Users\Leri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55352}, goog:processID: 5496, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55352/devtoo..., se:cdpVersion: 150.0.7871.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fb6f84d39c4f341588ee40e979bf860
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at pages.CheckoutPage.fillInformation(CheckoutPage.java:37)
+	at tests.CheckoutTests.checkoutTest(CheckoutTests.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.InventoryTests#inventoryUnavailableAfterLogoutTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [false] but found [true]
+	at tests.InventoryTests.inventoryUnavailableAfterLogoutTest(InventoryTests.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">myTest#testMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.CheckoutTests#continueFromCartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.InventoryTests#cartBadgeAfterOpeningCartTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.InventoryTests#inventoryTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.InventoryTests#logoutTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.LoginTests#emptyLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.LoginTests#emptyPasswordTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.LoginTests#invalidLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.LoginTests#validLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

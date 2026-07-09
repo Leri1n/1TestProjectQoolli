@@ -1,1 +1,11 @@
+base\BaseTest.class
+pages\InventoryPage.class
+tests\CartTests.class
+pages\CheckoutCompletePage.class
+tests\InventoryTests.class
+pages\LoginPage.class
+tests\LoginTests.class
+pages\CartPage.class
+pages\CheckoutPage.class
 myTest.class
+tests\CheckoutTests.class
