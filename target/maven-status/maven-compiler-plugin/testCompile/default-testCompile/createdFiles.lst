@@ -7,5 +7,4 @@ pages\LoginPage.class
 tests\LoginTests.class
 pages\CartPage.class
 pages\CheckoutPage.class
-myTest.class
 tests\CheckoutTests.class

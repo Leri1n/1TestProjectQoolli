@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 /*
  * Page Object страницы Cart.
- *
  * Здесь находятся:
  * - локаторы элементов страницы корзины;
  * - методы работы с корзиной.
@@ -37,7 +36,6 @@ public class CartPage {
         this.driver = driver; // Сохраняем браузер.
         this.wait = wait; // Сохраняем ожидание.
     }
-
     /*
      * Проверка отображения Backpack в корзине.
      * Возвращает true, если товар найден.
@@ -47,7 +45,6 @@ public class CartPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(backpack));
         return driver.findElement(backpack).isDisplayed();
     }
-
     /*
      * Проверка отображения Bike Light в корзине.
      * Возвращает true, если товар найден.
@@ -57,7 +54,6 @@ public class CartPage {
         wait.until(ExpectedConditions.visibilityOfElementLocated(bikeLight));
         return driver.findElement(bikeLight).isDisplayed();
     }
-
     /*
      * Удаление Backpack из корзины.
      */
@@ -66,7 +62,6 @@ public class CartPage {
         wait.until(ExpectedConditions.elementToBeClickable(removeBackpack));
         driver.findElement(removeBackpack).click();
     }
-
     /*
      * Удаление Bike Light из корзины.
      */
@@ -75,7 +70,6 @@ public class CartPage {
         wait.until(ExpectedConditions.elementToBeClickable(removeBikeLight));
         driver.findElement(removeBikeLight).click();
     }
-
     /*
      * Переход к оформлению заказа.
      */
@@ -84,7 +78,6 @@ public class CartPage {
         wait.until(ExpectedConditions.elementToBeClickable(checkout));
         driver.findElement(checkout).click();
     }
-
     /*
      * Возврат на страницу товаров.
      */

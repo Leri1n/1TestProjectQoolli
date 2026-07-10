@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="78.301" tests="11" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="104.087" tests="15" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25.0.3\bin"/>
-    <property name="sun.java.command" value="C:\Users\Leri\AppData\Local\Temp\surefire6196700285223236812\surefirebooter-20260709211243817_3.jar C:\Users\Leri\AppData\Local\Temp\surefire6196700285223236812 2026-07-09T21-12-43_525-jvmRun1 surefire-20260709211243817_1tmp surefire_0-20260709211243817_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Leri\AppData\Local\Temp\surefire9670449791699539152\surefirebooter-20260710220141927_3.jar C:\Users\Leri\AppData\Local\Temp\surefire9670449791699539152 2026-07-10T22-01-41_466-jvmRun1 surefire-20260710220141927_1tmp surefire_0-20260710220141927_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Leri\IdeaProjects\1TestProjectQoolli\target\test-classes;C:\Users\Leri\IdeaProjects\1TestProjectQoolli\target\classes;C:\Users\Leri\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Leri\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Leri\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Leri\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-java\4.43.0\selenium-java-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-api\4.43.0\selenium-api-4.43.0.jar;C:\Users\Leri\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.43.0\selenium-chrome-driver-4.43.0.jar;C:\Users\Leri\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.43.0\selenium-chromium-driver-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-json\4.43.0\selenium-json-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.43.0\selenium-manager-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v145\4.43.0\selenium-devtools-v145-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v146\4.43.0\selenium-devtools-v146-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v147\4.43.0\selenium-devtools-v147-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.43.0\selenium-edge-driver-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.43.0\selenium-firefox-driver-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-http\4.43.0\selenium-http-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.43.0\selenium-ie-driver-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.43.0\selenium-remote-driver-4.43.0.jar;C:\Users\Leri\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Leri\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Leri\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Leri\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Leri\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Leri\.m2\repository\io\opentelemetry\opentelemetry-api\1.60.1\opentelemetry-api-1.60.1.jar;C:\Users\Leri\.m2\repository\io\opentelemetry\opentelemetry-context\1.60.1\opentelemetry-context-1.60.1.jar;C:\Users\Leri\.m2\repository\io\opentelemetry\opentelemetry-common\1.60.1\opentelemetry-common-1.60.1.jar;C:\Users\Leri\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.60.1\opentelemetry-exporter-logging-1.60.1.jar;C:\Users\Leri\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.60.1\opentelemetry-sdk-common-1.60.1.jar;C:\Users\Leri\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.60.1\opentelemetry-sdk-extension-autoconfigure-spi-1.60.1.jar;C:\Users\Leri\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.60.1\opentelemetry-sdk-extension-autoconfigure-1.60.1.jar;C:\Users\Leri\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.60.1\opentelemetry-sdk-trace-1.60.1.jar;C:\Users\Leri\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.60.1\opentelemetry-sdk-1.60.1.jar;C:\Users\Leri\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.60.1\opentelemetry-sdk-metrics-1.60.1.jar;C:\Users\Leri\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.60.1\opentelemetry-sdk-logs-1.60.1.jar;C:\Users\Leri\.m2\repository\net\bytebuddy\byte-buddy\1.18.8-jdk5\byte-buddy-1.18.8-jdk5.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-os\4.43.0\selenium-os-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.43.0\selenium-safari-driver-4.43.0.jar;C:\Users\Leri\.m2\repository\org\seleniumhq\selenium\selenium-support\4.43.0\selenium-support-4.43.0.jar;C:\Users\Leri\.m2\repository\io\qameta\allure\allure-testng\2.35.3\allure-testng-2.35.3.jar;C:\Users\Leri\.m2\repository\io\qameta\allure\allure-java-commons\2.35.3\allure-java-commons-2.35.3.jar;C:\Users\Leri\.m2\repository\io\qameta\allure\allure-model\2.35.3\allure-model-2.35.3.jar;C:\Users\Leri\.m2\repository\io\qameta\allure\allure-test-filter\2.35.3\allure-test-filter-2.35.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Leri\AppData\Local\Temp\surefire6196700285223236812\surefirebooter-20260709211243817_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Leri\AppData\Local\Temp\surefire9670449791699539152\surefirebooter-20260710220141927_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.3+9-LTS-195"/>
@@ -60,27 +60,30 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testMethod" classname="myTest" time="10.293">
+  <testcase name="addItemToCartTest" classname="tests.CartTests" time="1.112">
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-июл. 09, 2026 9:12:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+июл. 10, 2026 10:01:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 ]]></system-err>
   </testcase>
-  <testcase name="checkoutTest" classname="tests.CheckoutTests" time="11.663">
-    <failure message="Expected condition failed: waiting for visibility of element found by By.id: first-name, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#first\-name&quot;}.&#10;(tried for 10 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.114, chrome: {chromedriverVersion: 150.0.7871.115 (25f5b661e5b..., userDataDir: C:\Users\Leri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55352}, goog:processID: 5496, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55352/devtoo..., se:cdpVersion: 150.0.7871.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5fb6f84d39c4f341588ee40e979bf860" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element found by By.id: first-name, but... org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#first\-name"}.
-(tried for 10 seconds with 500 milliseconds interval)
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.114, chrome: {chromedriverVersion: 150.0.7871.115 (25f5b661e5b..., userDataDir: C:\Users\Leri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55352}, goog:processID: 5496, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55352/devtoo..., se:cdpVersion: 150.0.7871.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5fb6f84d39c4f341588ee40e979bf860
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
-	at pages.CheckoutPage.fillInformation(CheckoutPage.java:37)
-	at tests.CheckoutTests.checkoutTest(CheckoutTests.java:30)
+  <testcase name="addItemsToCartTest" classname="tests.CartTests" time="1.652">
+    <system-err><![CDATA[июл. 10, 2026 10:02:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="checkItemInCartTest" classname="tests.CartTests" time="1.478">
+    <system-err><![CDATA[июл. 10, 2026 10:02:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="checkoutWithEmptyCartTest" classname="tests.CartTests" time="1.442">
+    <failure message="Система ошибочно позволила перейти к Checkout с пустой корзиной! expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Система ошибочно позволила перейти к Checkout с пустой корзиной! expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertFalse(Assert.java:79)
+	at tests.CartTests.checkoutWithEmptyCartTest(CartTests.java:98)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -113,26 +116,80 @@ Session ID: 5fb6f84d39c4f341588ee40e979bf860
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[июл. 09, 2026 9:12:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[июл. 10, 2026 10:02:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 ]]></system-err>
   </testcase>
-  <testcase name="continueFromCartTest" classname="tests.CheckoutTests" time="1.187">
-    <system-err><![CDATA[июл. 09, 2026 9:13:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="removeItemFromCartTest" classname="tests.CartTests" time="1.561">
+    <system-err><![CDATA[июл. 10, 2026 10:02:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 ]]></system-err>
   </testcase>
-  <testcase name="cartBadgeAfterOpeningCartTest" classname="tests.InventoryTests" time="1.3">
-    <system-err><![CDATA[июл. 09, 2026 9:13:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="checkoutTest" classname="tests.CheckoutTests" time="12.226">
+    <failure message="Expected condition failed: waiting for element found by By.id: finish to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#finish&quot;}.&#10;(tried for 10 seconds with 500 milliseconds interval)&#10;Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25.0.3&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.114, chrome: {chromedriverVersion: 150.0.7871.115 (25f5b661e5b..., userDataDir: C:\Users\Leri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58155}, goog:processID: 5832, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58155/devtoo..., se:cdpVersion: 150.0.7871.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 459321cfe26230e8db8f5b4f70d71bc3" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for element found by By.id: finish to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#finish"}.
+(tried for 10 seconds with 500 milliseconds interval)
+Build info: version: '4.43.0', revision: 'dd0f534'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.114, chrome: {chromedriverVersion: 150.0.7871.115 (25f5b661e5b..., userDataDir: C:\Users\Leri\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58155}, goog:processID: 5832, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58155/devtoo..., se:cdpVersion: 150.0.7871.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 459321cfe26230e8db8f5b4f70d71bc3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:234)
+	at pages.CheckoutPage.finishOrder(CheckoutPage.java:49)
+	at tests.CheckoutTests.checkoutTest(CheckoutTests.java:32)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[июл. 10, 2026 10:02:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 ]]></system-err>
   </testcase>
-  <testcase name="inventoryTitleTest" classname="tests.InventoryTests" time="0.733">
-    <system-err><![CDATA[июл. 09, 2026 9:13:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="continueFromCartTest" classname="tests.CheckoutTests" time="1.708">
+    <system-err><![CDATA[июл. 10, 2026 10:02:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 ]]></system-err>
   </testcase>
-  <testcase name="inventoryUnavailableAfterLogoutTest" classname="tests.InventoryTests" time="1.881">
+  <testcase name="cartBadgeAfterOpeningCartTest" classname="tests.InventoryTests" time="1.471">
+    <system-err><![CDATA[июл. 10, 2026 10:02:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="inventoryTitleTest" classname="tests.InventoryTests" time="1.03">
+    <system-err><![CDATA[июл. 10, 2026 10:02:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
+]]></system-err>
+  </testcase>
+  <testcase name="inventoryUnavailableAfterLogoutTest" classname="tests.InventoryTests" time="1.967">
     <failure message="expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
@@ -171,32 +228,32 @@ WARNING: Unable to find an exact match for CDP version 150, returning the closes
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-err><![CDATA[июл. 09, 2026 9:13:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[июл. 10, 2026 10:03:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 ]]></system-err>
   </testcase>
-  <testcase name="logoutTest" classname="tests.InventoryTests" time="1.579">
-    <system-err><![CDATA[июл. 09, 2026 9:13:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="logoutTest" classname="tests.InventoryTests" time="1.706">
+    <system-err><![CDATA[июл. 10, 2026 10:03:07 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 ]]></system-err>
   </testcase>
-  <testcase name="emptyLoginTest" classname="tests.LoginTests" time="0.594">
-    <system-err><![CDATA[июл. 09, 2026 9:13:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="emptyLoginTest" classname="tests.LoginTests" time="0.454">
+    <system-err><![CDATA[июл. 10, 2026 10:03:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 ]]></system-err>
   </testcase>
-  <testcase name="emptyPasswordTest" classname="tests.LoginTests" time="0.696">
-    <system-err><![CDATA[июл. 09, 2026 9:13:48 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="emptyPasswordTest" classname="tests.LoginTests" time="0.504">
+    <system-err><![CDATA[июл. 10, 2026 10:03:15 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 ]]></system-err>
   </testcase>
-  <testcase name="invalidLoginTest" classname="tests.LoginTests" time="0.468">
-    <system-err><![CDATA[июл. 09, 2026 9:13:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="invalidLoginTest" classname="tests.LoginTests" time="0.538">
+    <system-err><![CDATA[июл. 10, 2026 10:03:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 ]]></system-err>
   </testcase>
-  <testcase name="validLoginTest" classname="tests.LoginTests" time="0.51">
-    <system-err><![CDATA[июл. 09, 2026 9:13:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+  <testcase name="validLoginTest" classname="tests.LoginTests" time="0.584">
+    <system-err><![CDATA[июл. 10, 2026 10:03:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 150, returning the closest version; found: 147; Please update to a Selenium version that supports CDP version 150
 ]]></system-err>
   </testcase>

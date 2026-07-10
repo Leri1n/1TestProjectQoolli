@@ -3,13 +3,6 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="tests.InventoryTests">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="inventoryUnavailableAfterLogoutTest"/>
-        </methods>
-      </class> <!-- tests.InventoryTests -->
       <class name="tests.CheckoutTests">
         <methods>
           <include name="setup"/>
@@ -17,6 +10,20 @@
           <include name="checkoutTest"/>
         </methods>
       </class> <!-- tests.CheckoutTests -->
+      <class name="tests.CartTests">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="checkoutWithEmptyCartTest"/>
+        </methods>
+      </class> <!-- tests.CartTests -->
+      <class name="tests.InventoryTests">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="inventoryUnavailableAfterLogoutTest"/>
+        </methods>
+      </class> <!-- tests.InventoryTests -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->
